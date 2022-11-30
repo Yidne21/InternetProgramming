@@ -1,0 +1,44 @@
+body {
+    background-image: url("../image/spaceship-5164782_1920.jpg");
+  }
+  #myh1 {
+    color: antiquewhite;
+    align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    text-transform: capitalize;
+    text-indent: 10%;
+  }
+  #mytable {
+    background-color: aquamarine;
+    text-align: left;
+    height: 80%;
+    width: 100%;
+    table-layout: auto;
+  }
+
+  th {
+    color: brown;
+  }
+
+  ul > li,
+  ol > li {
+    color: burlywood;
+  }
+
+  form {
+    color: aquamarine;
+    text-indent: 10%;
+  }
+  .myheader {
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .mainPart{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-bottom: 0%;
+  }
