@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root">
+      <h1>Basic Js</h1>
+      <script>
+        //variable var
+        var x = 6;
+        var x = 5; // var allow re declaration of a variable
+        //variable let
+
+        
+        let rate = 12.34;
+        rate = 12; // reassigning is possible
+        //let rate = 23; Error let doesn't allow re declaration
+
+        //variable const
+        const static = 4;
+        // static = 5; // Error thats not possible Uncaught TypeError: Assignment to constant variable.
+        console.log(static);
+        //const static = 6; // Error const doesn't allow re declaration
+
+        //primitive data type
+
+        let bool = true; // boolean type
+        let int = 23; //Number type
+        let und = undefined; // undefined type
+        let name = "ja"; // String type
+        let pos = null; //object type
+        console.log(typeof pos);
+
+        //none-primitive data type called object
+        let persone = {
+          name: "Kebede",
+          age: 34,
+          adress: "wku",
+          position: "student",
+        }; // object type
+
+
+        console.log(persone);
+        document.write("<p> name: " + persone.name + "</p>");
+        document.write("<p> age: " + persone.age + "</p>");
+        document.write("<p> adress: " + persone.adress + "</p>");
+        document.write("<p> postion: " + persone.position + "</p>");
+
+        //Array in Js
+
+        let student = ["abebe", "kebede", "zelalem"];
+        document.write("<h1> Students Array </h1>");
+        document.write("<p>" + student[0] + " </p>");
+        document.write("<p>" + student[1] + " </p>");
+        document.write("<p>" + student[2] + " </p>");
+        document.write("<p> Total: " + student.length + " </p>");
+        console.log(typeof student);
+
+        //Function in js
+
+        function greetings(subject, assignment) {
+          console.log("hello " + subject + " " + assignment);
+        }
+
+        greetings("Yidne", "write about function");
+        console.log(typeof greetings);
+
+
+        function calcVolume(h, w, l) {
+          return h * l * w;
+        }
+        console.log("volume = " + calcVolume(20, 30, 40));
+        document.write("<p> volume = " + calcVolume(20, 30, 40) + "</p>");
+      </script>
+    </div>
+  </body>
+</html>
