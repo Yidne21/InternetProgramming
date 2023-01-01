@@ -1,3 +1,3 @@
 # InternetProgramming
 
-<p> This repository contains lab practice and project for the internet programming course <p/>
+<p> This repository contains lab practice and Exercises for the internet programming course <p/>
